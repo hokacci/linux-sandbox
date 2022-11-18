@@ -17,7 +17,7 @@ clean:
 
 
 getppid: getppid.s
-	gcc -o getppid getppid.s
+	gcc -static -o getppid getppid.s
 
 getppid.log: getppid
 	strace -o getppid.log ./getppid
