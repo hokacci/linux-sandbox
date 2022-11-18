@@ -16,7 +16,7 @@ clean:
 
 
 
-hello:
+hello: hello.go
 	go build hello.go
 
 hello.log: hello
